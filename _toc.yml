@@ -1,0 +1,14 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: markdown
+- file: system/introduction
+  sections:
+    - file: system/deep_learning_framework/introduction
+    - file: system/deep_learning_framework/train_and_inference
+    - file: system/compute/introduction
+- file: notebooks
+- file: markdown-notebooks
